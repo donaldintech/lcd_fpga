@@ -1,6 +1,6 @@
 # Interfacing a 16x2 LCD with an FPGA board.
 ## Background Info ##
-Unlike the case with an Arduino, an FPGA represents a more challenging task when interfacing with an LCD.
+Unlike the case with an Arduino, an FPGA presents a more challenging task when interfacing with an LCD.
 First we are aware how for an FPGA we have to tell the hardware how it should implement our logic through an Hardware Description Language(HDL), and how higher level & simple libraries make working with a micro-controller easier.(look at the code below for an arduino 
 used to implement 'hello world')
 ![image](https://github.com/user-attachments/assets/442612fa-0654-4c4e-96de-bdf6f4b2e684)
