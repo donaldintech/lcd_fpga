@@ -42,7 +42,8 @@ When command writes on the LCD, the data register is used. When the data either 
 **LED backlight**
 
 -The pin numbers 15 & 16 are allocated for LCD backlight. The supply of LED backlight is +5v & 0v. It makes brightness of LCD display posssible. The LED backlight pins denoted as (Anode (A) or LED+, Cathode (K)) or LED- on the LCD.
--In a Timing Diagram, 
+
+-In a Timing Diagram;
 
  ![image](https://github.com/user-attachments/assets/aecfc8dd-7c3b-4964-b96c-067bb8815b71)
 
@@ -53,7 +54,7 @@ When command writes on the LCD, the data register is used. When the data either 
 
 ## Programming in VHDL ##
 
-Breaking down our program into sections provide an easier way to understand what each section does and represent.
+Breaking down our program into sections provide an easier way to understand what each section does and represents.
 
 **•	Libraries**
 
@@ -220,9 +221,9 @@ If all characters have been sent (when j = N + 1), the FSM transitions to the do
 
 -The lcd_e signal is set to '0' to disable the LCD enable signal and the display_done signal is set to '1', indicating that the process is complete.
 
--The block diagram of the states is shown below; (in progress...)
+-The block diagram of the states is shown below; 
 
-
+![image](https://github.com/user-attachments/assets/8502a547-021a-4bf4-96e7-5cd3e0118cc1)
 
 <br/><br/>
 -FIND THE WHOLE CODE BELOW: 
